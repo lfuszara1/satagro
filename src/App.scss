@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  width: 95vw;
+}
+
+.section-price {
+  max-height: 404px;
+  height: 100%;
+
+  .price-country-width {
+    margin: 2em auto;
+    width: 30em;
+  }
+
+  .price-select-country {
+    padding: 0 2em;
+    min-width: 100px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 50px;
+  }
+
+  .price-select-country-sm {
+    margin: 1em 2em 1em 0;
+  }
+
+  h3, h5 {
+    font-family: "Caveat", "Neucha", cursive;
+    font-size: 3em;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 1.7em;
+    margin: 0.5em 0;
+  }
+
+  .price-white-box {
+  }
+
+  .price-paper {
+    width: 18.5em;
+    padding-bottom: 2em;
+    margin: 1em 2em;
+
+    .price-paper-nobold {
+      font-weight: normal;
+    }
+
+    p {
+      margin: 2em;
+      min-height: 5.5em;
+    }
+
+    .price-button {
+      text-transform: uppercase;
+      min-height: 50px;
+      max-height: 50px;
+    }
+  }
+}
